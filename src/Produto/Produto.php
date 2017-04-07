@@ -1,5 +1,5 @@
 <?php
-namespace Produto;
+namespace Ecompassaro\Produto;
 
 class Produto
 {

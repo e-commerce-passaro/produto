@@ -1,9 +1,9 @@
 <?php
-namespace Produto;
+namespace Ecompassaro\Produto;
 
 use Zend\Hydrator\HydratorInterface;
 
-class ProdutoHydrator implements HydratorInterface
+class Hydrator implements HydratorInterface
 {
     /**
      * Converte um objeto produto em vetor
@@ -18,8 +18,8 @@ class ProdutoHydrator implements HydratorInterface
     /**
      * Converte um vetor em um objeto produto
      * @param array $data vetor
-     * @param produto $object (prototipo)
-     * @return produto
+     * @param Produto $object (prototipo)
+     * @return Produto
      */
     public function hydrate(array $data, $object)
     {

@@ -1,5 +1,5 @@
 <?php
-namespace Produto;
+namespace Ecompassaro\Produto;
 
 use Zend\Db\Adapter\AdapterInterface;
 use Zend\Db\Sql\Sql;
@@ -8,7 +8,7 @@ use Zend\Db\ResultSet\HydratingResultSet;
 use Zend\Db\TableGateway\TableGateway;
 use Zend\Db\Sql\Select;
 
-class ProdutoRepository
+class Repository
 {
 
     private $tableGateway;
@@ -46,7 +46,7 @@ class ProdutoRepository
      * @param ProdutoHydrator $hydrator            
      * @param Produto $prototipo            
      */
-    public function __construct(AdapterInterface $dbAdapter, ProdutoHydrator $hydrator, Produto $prototipo)
+    public function __construct(AdapterInterface $dbAdapter, Hydrator $hydrator, Produto $prototipo)
     {
         $this->dbAdapter = $dbAdapter;
         $this->hydrator = $hydrator;

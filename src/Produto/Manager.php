@@ -1,7 +1,7 @@
 <?php
-namespace Produto;
+namespace Ecompassaro\Produto;
 
-class ProdutoManager
+class Manager
 {
     private $repository;
 
@@ -9,7 +9,7 @@ class ProdutoManager
      *
      * @param ProdutoRepository $repository
      */
-    public function __construct(ProdutoRepository $repository)
+    public function __construct(Repository $repository)
     {
         $this->repository = $repository;
     }
