@@ -1,0 +1,31 @@
+{
+  "name" : "e-commerce-passaro/produto",
+  "description" : "Biblioteca de um produto de e-commerce",
+  "version": "0.0.1",
+  "type":"library",
+  "homepage":"https://github.com/e-commerce-passaro/produto",
+  "time":"2017-04-07 09:57:01",
+  "license":"GPL-3.0+",
+  "authors":[{
+	"name":"Marcel Bezerra da Silva",
+	"email":"marcelbzrra@gmail.com",
+	"role":"developer"
+  }],
+  "support": {
+  	"email":"marcelbzrra@gmail.com",
+  	"issues":"https://github.com/e-commerce-passaro/produto/issues",
+  	"wiki":"https://github.com/e-commerce-passaro/produto/wiki",
+  	"source":"https://github.com/e-commerce-passaro/produto/releases"
+  },
+  "require" : {
+    "php" : ">=7.0",
+    "zendframework/zend-db" : "2.8.*",
+    "zendframework/zend-hydrator" : "2.2.*"
+  },
+  "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "produto" ],
+  "autoload": {
+        "psr-4": {
+            "Produto\\": "./src/Produto"
+        }
+  }  
+}
