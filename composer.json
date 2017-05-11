@@ -19,8 +19,8 @@
   },
   "require" : {
     "php" : ">=7.0",
-    "zendframework/zend-db" : "2.8.*",
-    "zendframework/zend-hydrator" : "2.2.*"
+    "zendframework/zend-db" : "2.8.2",
+    "zendframework/zend-hydrator" : "2.2.1"
   },
   "keywords" : [ "e-commerce-passaro", "zf3", "ecommerce", "produto" ],
   "autoload": {
